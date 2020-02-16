@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #222831;
+    color: white;
+
+}
+header {
+    display: flex;
+    flex-direction: column;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 56%, 50% 81%, 0% 56%);
+    height: 650px;
+    background-image: linear-gradient(to right, #302e24, #28313e);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 83%;
+}
+
+li {
+    list-style: none;
+    padding: 20px 19px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+i {
+    font-size: 22px;
+    padding: 20px;
+}
+
+input {
+    border-radius: 8px;
+    border: 0.5px solid #1b2127;
+    height: 32px;
+    width: 140px;
+    padding: 2px;
+    margin-top: 15px;
+    background-color: #222831;
+    font-size: 16px;
+    background-image: url("images/search-icon.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-x: 110px; 
+    background-position-y: center;
+    color: white;
+}
+
+input:focus {
+    width: 170px;
+    background-position-x: 140px;
+    border: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.alligator {
+    width: 180px;
+    height: 180px;
+}
+
+
+h1 {
+    font-family: 'Cairo', sans-serif;
+    font-style: italic;
+    line-height: 48px;
+    font-weight: lighter;
+    font-size: 48px;
+    height: 100px;
+    width: 50%;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.content h3 {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   width: 22%;
+   font-weight: 300;
+   text-align: center;
+   padding: 20px;
+   font-size: 19px;
+
+}
+
+.sec1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: yellow 1px solid;
+    margin: 0px;
+    height: 500px;
+}
+
+.sec1head {
+    height: 50px;
+    margin-top: 0px;
+    font-weight: 300;
+    text-align: center;
+    font-size: 24px;
+    line-height: 38px;
+    border: firebrick 1px solid;
+}
+
+.sec1 div {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    border: antiquewhite 2px solid;
+    flex-wrap: wrap;
+}
+
+.sec1 div h3 {
+    border: springgreen 1px solid;
+    width: 261px;
+    height: 125px;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: center;
+}
