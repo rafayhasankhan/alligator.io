@@ -10,9 +10,11 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 56%, 50% 81%, 0% 56%);
-    height: 650px;
+    /* clip-path: polygon(0% 0%, 100% 0%, 100% 56%, 50% 81%, 0% 56%); */
+    clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
+    height: 550px;
     background-image: linear-gradient(to right, #302e24, #28313e);
+    border: red 1px solid;
 }
 
 nav {
@@ -86,7 +88,7 @@ h1 {
     line-height: 48px;
     font-weight: lighter;
     font-size: 48px;
-    height: 100px;
+    /* height: 100px; */
     width: 50%;
     text-align: center;
     letter-spacing: 3px;
@@ -108,13 +110,13 @@ h1 {
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: yellow 1px solid;
-    margin: 0px;
+    margin-top: 0px;
     height: 500px;
 }
 
 .sec1head {
     height: 50px;
-    margin-top: 0px;
+    margin-top: 40px;
     font-weight: 300;
     text-align: center;
     font-size: 24px;
